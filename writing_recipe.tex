@@ -262,6 +262,18 @@ This is perhaps also the best place to discuss company details as a
 case study that you use to evaluate the value of your work in a
 practical setting.
 
+One way to approach your problem is as follows. Suppose you like to improve the throughput of a production station. Then the station is the unit of analysis.
+\begin{enumerate}
+\item Describe/plot the demand for the station as a function of time. 
+\item Describe actual production plans/schedules of the station
+\item Make a model of the station so that you can replicate, to some extent, the actual behavior of the station, and you can compute the KPIs.
+\item Test this model with simple demand patters (e.g., constant demand)
+\item Feed real data into the model, and check with management whether the behavior (expressed in terms of graphs or KPIs) is according to expectation.
+\item Find rules, for instance to form production schedules, that affect the throughput.
+\item Evaluate these rules bases on the KPIs. 
+\item Try to improve these rules, evaluate, and so on.
+\end{enumerate}
+
 \subsection{Experiments}
 \label{sec:experiments}
 
